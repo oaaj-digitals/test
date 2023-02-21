@@ -8,6 +8,8 @@ let close = (menuBtn, menu, menuBg) => {
 	menu.style.display = "none";
 	menuBg.style.display = "none";
 	menuBtn.style.position = "static";
+	
+	location.reload()
 };
 
 let open = (menuBtn, menu, menuBg) => {
