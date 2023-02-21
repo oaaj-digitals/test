@@ -596,7 +596,7 @@ footer {
 
 	header {
 		height: auto;
-		padding: 5rem 6vw;
+		padding: 3rem 6vw;
 	}
 
 	.header-nav {
@@ -639,7 +639,7 @@ footer {
 	.games-section {
 		height: auto;
 		gap: 8rem;
-		padding: 8rem;
+		padding: 8rem 5vw;
 	}
 
 	.games__div {
