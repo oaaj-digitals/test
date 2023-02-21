@@ -13,7 +13,8 @@ let close = (menuBtn, menu, menuBg) => {
 let open = (menuBtn, menu, menuBg) => {
 	menuBtn.src = "./icon-menu-close.svg";
 	menuBtn.classList.add("opened");
-	menu.style.display = "block";
+	menu.style.display = "flex";
+	menuBtn.style.position = "fixed";
 	menuBg.style.display = "block";
 };
 

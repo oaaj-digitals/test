@@ -320,8 +320,8 @@ main {
 
 .carousel-item > img {
 	display: block;
-	height: 100% !important;
-	width: auto !important;
+	height: auto !important;
+	width: 100% !important;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -604,6 +604,26 @@ footer {
 		display: none;
 
 		z-index: 900;
+		width: 70vw;
+		position: fixed;
+		padding: 0 5%;
+		top: 15vw;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.nav-list {
+		width: 100%;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.nav-link {
+		padding: 2rem 1rem;
+	}
+
+	.active-nav {
+		border: none !important;
 	}
 
 	.login-form__div {
@@ -666,6 +686,7 @@ footer {
 		right: 5.01rem;
 	}
 	.carousel-item > img {
+		height: 100% !important;
 		width: auto !important;
 	}
 
