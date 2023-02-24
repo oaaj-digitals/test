@@ -113,6 +113,8 @@ header {
 
 .header__right-side {
 	height: 75%;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 /* Just added */
