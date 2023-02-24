@@ -394,8 +394,9 @@ main {
 	border-radius: 0 10px 10px 0;
 }
 
-.dropdown-menu {
+.dropdown-item {
 	font-size: 1.3rem;
+	padding: 1rem 2rem;
 }
 
 .dropdown-icon {
@@ -789,6 +790,10 @@ footer {
 
 	.dropdown-text {
 		display: none;
+	}
+
+	.dropdown-item {
+		font-size: 2rem;
 	}
 
 	.games-section {
