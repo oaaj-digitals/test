@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+		<link
+			rel="stylesheet"
+			href="./fontawesome-free-6.0.0-web/css/all.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+		/>
+		<link rel="stylesheet" href="./homepage-style.css" />
+		<link rel="stylesheet" href="./signup.css" />
+		<title>HomePage | PayGames</title>
+	</head>
+	<body>
+		<header>
+			<div class="header__left-side header__side">
+				<h1 class="site-title">
+					<a href="#" class="site-title-link link">Paygames</a>
+				</h1>
+
+				<nav class="header-nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="#" class="nav-link link active-nav"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Reviews</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Guides</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Rules</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Support</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="header__right-side header__side">
+				<div class="login-form__div">
+					<form action="" class="login-form">
+						<div class="input__div">
+							<input
+								type="text"
+								class="form-input phone-number__input"
+								placeholder="Phone Number"
+							/>
+						</div>
+						<div class="input__div password__div">
+							<input
+								type="passowrd"
+								class="form-input password__input"
+								placeholder="Password"
+							/>
+
+							<a href="#" class="link forget-password-link"
+								>Forget Password?</a
+							>
+						</div>
+						<div class="input__div">
+							<input
+								type="submit"
+								value="Login"
+								class="btn login-btn form-input"
+							/>
+						</div>
+					</form>
+
+					<div class="register__div">
+						<a href="#" class="link signup-btn btn">Join Now</a>
+					</div>
+				</div>
+				<div class="menu-icon-div">
+					<img
+						src="./icon-menu.svg"
+						alt=""
+						class="menu-icon-img"
+						id="menu-icon"
+					/>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="section form__section">
+				<h2 class="section-title">Register your account</h2>
+				<form action="#" class="sign-up-form">
+					<div class="input__div">
+						<label for="firstName" class="input-label"
+							>First Name</label
+						>
+						<input
+							type="text"
+							name="firstName"
+							id="firstName"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="lastName" class="input-label"
+							>Last Name</label
+						>
+						<input
+							type="text"
+							name="lastName"
+							id="lastName"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="nickname" class="input-label"
+							>Nickname</label
+						>
+						<input
+							type="text"
+							name="nickname"
+							id="nickname"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="security" class="input-label"
+							>Security</label
+						>
+						<input
+							type="password"
+							name="security"
+							id="security"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="email" class="input-label">Email</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="gender" class="input-label">Gender</label>
+						<select name="gender" id="gender" class="input-element">
+							<option value="">Select Gender</option>
+							<option value="M">Male</option>
+
+							<option value="F">Female</option>
+							<option value="N">Prefer not to say</option>
+						</select>
+					</div>
+
+					<div class="input__div">
+						<label for="age" class="input-label"
+							>Fill in your age</label
+						>
+						<input
+							type="number"
+							name="age"
+							id="age"
+							min="18"
+							max="120"
+							class="input-element"
+						/>
+					</div>
+
+					<div class="input__div">
+						<label for="country" class="input-label">Country</label>
+						<select
+							name="country"
+							id="country"
+							class="input-element"
+						>
+							<option value="">Select Country</option>
+							<option value="Ng">Nigeria</option>
+
+							<option value="Gh">Ghana</option>
+							<option value="etc">Etc</option>
+						</select>
+					</div>
+
+					<div class="input__div submit__div">
+						<input
+							type="submit"
+							value="Register"
+							class="btn submit-btn"
+						/>
+					</div>
+				</form>
+			</section>
+
+			<section class="section getting-started-section">
+				<h2 class="section-title">Getting Started with Paygames</h2>
+
+				<div class="getting-started__div">
+					<div class="how-to-earn">
+						<p>
+							Paygames offers seamless means of making money
+							online by playing games you enjoy. To get started
+						</p>
+						<ol>
+							<li>Sin up to www.playgames.com</li>
+							<li>Complete your verification.</li>
+							<li>
+								Deposit a minimum of 1000 naira which will
+								convert to pgcoin.
+							</li>
+							<li>
+								Start playing with opponents from around the
+								world
+							</li>
+							<li>
+								Withdraw yout winning to your bank account or
+								get them sent to yout BTC wallet.
+							</li>
+						</ol>
+					</div>
+
+					<div class="game-modes__div">
+						<dl class="game-modes-list">
+							<div class="game-modes-item">
+								<dt>Live games</dt>
+								<dd>
+									You can play real time chess against players
+									from all over the world and cash prizes!
+								</dd>
+							</div>
+
+							<div class="game-modes-item">
+								<dt>Cash tournament</dt>
+								<dd>
+									You can take in our official quarterly cash
+									prize tournaments. Hosted by Paygames.
+								</dd>
+							</div>
+
+							<div class="game-modes-item">
+								<dt>Mobile friendly</dt>
+								<dd>
+									You can play and win on your mobile phone.
+									Download our mobile app and have a great
+									experience/dd>
+								</dd>
+							</div>
+						</dl>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="sponsors-div footer-left footer-div">
+				<p class="text">Powered by:</p>
+				<img
+					src="./Rectangle 8.png"
+					alt="Sponsor"
+					class="sponsor-img"
+				/>
+			</div>
+
+			<div class="footer-center footer-div">
+				<nav class="footer-nav">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Sport</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Live</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link"
+								>Become an agent</a
+							>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Help</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">About us</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link link">Affiliates</a>
+						</li>
+					</ul>
+				</nav>
+
+				<p class="text cookies-info">
+					<span>
+						By using the paygames.com site, you consent to the use
+						of cookies.
+					</span>
+
+					<span>
+						For more information, please see our
+						<a
+							href="#"
+							target="_blank"
+							class="link highlighted-link"
+							>cookie policy.</a
+						>
+					</span>
+				</p>
+			</div>
+
+			<div class="footer-right footer-div">
+				<ul class="social-media-list list">
+					<li class="list-item">
+						<a href="#" class="list-link link">
+							<i class="fab fa-instagram social-icon"></i>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="list-link link">
+							<i class="fab fa-facebook-f social-icon"></i>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="list-link link">
+							<i class="fab fa-twitter social-icon"></i>
+						</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="list-link link">
+							<i class="fab fa-youtube social-icon"></i>
+						</a>
+					</li>
+				</ul>
+
+				<div class="legal__div">
+					<img src="./image 4.png" class="icon" alt="" />
+					<p class="text">Play Responsibly</p>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://kit.fontawesome.com/806e697d16.js"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>

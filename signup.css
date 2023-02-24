@@ -1,0 +1,147 @@
+.section {
+	/* height: 73vh; */
+	height: max-content;
+
+	width: 100%;
+	padding: 8rem 0;
+
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+}
+
+.section-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.sign-up-form,
+.getting-started__div {
+	width: 80rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	/* justify-content: space-between; */
+}
+
+.input__div {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.input__div:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.input-label {
+	font-size: 1.3rem;
+	line-height: 1;
+}
+
+.input-element {
+	border: none;
+	border-radius: 5px;
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	color: rgb(44, 44, 44);
+	background-color: rgb(189, 189, 189);
+
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.input-element:focus,
+.input-element:focus-visible,
+.input-element:focus-within {
+	outline: 2px solid rgb(221, 147, 11);
+}
+
+.submit__div {
+	width: 100%;
+	align-items: center;
+}
+
+.submit-btn {
+	width: 50%;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	color: hsl(36, 100%, 99%);
+	background-color: rgb(10, 5, 75);
+	transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+	outline: none;
+	background-color: rgb(221, 147, 11);
+}
+
+.getting-started__div {
+	width: 80%;
+}
+
+.getting-started__div > div {
+	width: 48%;
+	display: flex;
+	justify-content: flex-start;
+	gap: 2rem;
+	font-size: 1.8rem;
+}
+
+.how-to-earn {
+	flex-direction: column;
+}
+
+.how-to-earn > ol {
+	margin-left: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.game-modes-list {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+
+.game-modes-list dt {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+	.sign-up-form {
+		width: 50%;
+	}
+
+	.input__div {
+		width: 100%;
+	}
+
+	.input-element,
+	.submit-btn {
+		padding: 1.5rem 3rem;
+	}
+
+	.getting-started__div {
+		width: 80%;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.getting-started__div > div {
+		width: 100%;
+	}
+}
+
+@media (max-width: 425.98px) {
+	.sign-up-form {
+		width: 60%;
+	}
+}
