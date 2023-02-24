@@ -753,7 +753,7 @@ footer {
 
 	.menu-icon-div {
 		display: inline-block;
-
+		position: static;
 		z-index: 1000;
 	}
 
@@ -762,8 +762,8 @@ footer {
 		height: 4rem;
 		display: block;
 		position: static;
-		top: 4.01rem;
-		right: 5.01rem;
+		top: 3rem;
+		right: 6vw;
 	}
 	.carousel-item > img {
 		height: 100% !important;
