@@ -363,6 +363,7 @@ main {
 	align-items: center;
 	background-color: hsl(36, 100%, 99%);
 	font-size: 1.6rem;
+	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
 }
 
 .nav_section > .item {
